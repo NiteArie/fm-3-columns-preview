@@ -49,12 +49,28 @@ body {
 .card__cta {
     margin-top: 80px;
     padding: 13px 25px;
-    letter-spacing: 1px;
-    font-size: 14px;
-    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: bold;
+    font-size: 15px;
     border-radius: 35px;
-    background-color: transparent;
     border: 2px solid white;
+    cursor: pointer;
+}
+
+.card__cta--first {
+    color:hsl(31, 77%, 52%);
+}
+
+.card__cta--second {
+    color: hsl(184, 100%, 22%);
+}
+
+.card__cta--third {
+    color: hsl(179, 100%, 13%);
+}
+
+.card__cta:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: transparent;
 }
 
 .attribution {
